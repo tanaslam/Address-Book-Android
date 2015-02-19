@@ -1,0 +1,63 @@
+{
+  "contacts": [
+    {
+      "id": 1283131,
+      "first_name": "Seb",
+      "last_name": "Fontaine",
+      "favourite": false,
+      "phone_numbers": [
+        {
+          "alias": "Home",
+          "number": "01232 182901"
+        },
+        {
+          "alias": "iPhone",
+          "number": "07723 182901"
+        }
+      ]
+    },
+    {
+      "id": 1283134,
+      "first_name": "Jamie",
+      "last_name": "Jones",
+      "phone_numbers": [
+        {
+          "alias": "Work",
+          "number": "+1(133) 1829012"
+        }
+      ]
+    },
+    {
+      "id": 1283134,
+      "first_name": "Dillon",
+      "last_name": "Francis",
+      "favourite": true,
+      "phone_numbers": [
+        {
+          "alias": "Home",
+          "number": "01232 182901"
+        },
+        {
+          "alias": "iPhone",
+          "number": "07812182901"
+        },
+        {
+          "alias": "Work",
+          "number": "+447700283912"
+        }
+      ]
+    },
+    {
+      "id": 2283111,
+      "first_name": "Paul van Dyke",
+      "last_name": null,
+      "favourite": true,
+      "phone_numbers": [
+        {
+          "alias": "Mobile",
+          "number": "07711 821723"
+        }
+      ]
+    }
+  ]
+}
