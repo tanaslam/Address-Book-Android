@@ -32,8 +32,6 @@ public class PlaceholderFragment extends Fragment {
     @Bean
     protected AddressBookRestClient restClient;
 
-    private AddressBookModel model;
-
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
 
@@ -45,7 +43,7 @@ public class PlaceholderFragment extends Fragment {
     @UiThread
     protected void updateViews() {
 
-        model = restClient.getContacts();
+        AddressBookModel model = restClient.getContacts();
 
         if(model != null) {
 

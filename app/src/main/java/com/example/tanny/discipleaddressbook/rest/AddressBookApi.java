@@ -53,7 +53,7 @@ public interface AddressBookApi extends RestClientErrorHandling {
      */
     void setRestTemplate(RestTemplate restTemplate);
 
-    @Get("/contacts.json")
+    @Get("/data/addressbook.json")
     AddressBookModel getContacts();
 
 

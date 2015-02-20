@@ -34,7 +34,7 @@ import javax.net.ssl.HttpsURLConnection;
 public class AddressBookRestClient implements RestErrorHandler {
 
     private static final String LOG_TAG = AddressBookRestClient.class.getSimpleName();
-    private static final String ROOT_URL = "https://s3-eu-west-1.amazonaws.com/disciple-android-test";
+    private static final String ROOT_URL = "https://raw.githubusercontent.com/tanaslam/Address-Book-Android/master";
 
     @RestService
     protected AddressBookApi restService;
@@ -57,7 +57,7 @@ public class AddressBookRestClient implements RestErrorHandler {
         if(isRestful) {
             doGetAddressBookModel();
         } else {
-            doGetContactsHttpsUrlConnection("/contacts.json");
+            doGetContactsHttpsUrlConnection("/data/addressbook.json");
         }
     }
 
